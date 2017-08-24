@@ -1,7 +1,7 @@
 <!-- BE SURE TO UPDATE NAME AND LINK TO DOC -->
 
-# 18431-play-video-end-playlist
-For more information about this sample see: https://support.brightcove.com/brightcove-player-sample-play-video-end-playlist.
+# 18164-brightcove-player-sample-background-video
+For more information about this sample see: https://support.brightcove.com/brightcove-player-sample-background-video.
 
 <p>The purpose and structure of files in this repo are:</p>
 
