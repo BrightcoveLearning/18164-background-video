@@ -76,7 +76,7 @@
   <div style="position: relative; display: block; max-width: 100%;">
     <div style="padding-top: 56.25%;">
       <!-- The autoplay and muted attributes have been added to the video element. Also, the controls attribute has been removed. If you want the video to loop continually, you can add the loop attribute.-->
-      <video id="myPlayerID"
+      <video-js id="myPlayerID"
         data-video-id="4825279519001"
         data-account="1752604059001"
         data-player="B1xXFuBodW"
@@ -85,8 +85,8 @@
         class="video-js"
         autoplay muted
         style="position: absolute; top: 0px; right: 0px; bottom: 0px; left: 0px; width: 100%; height: 100%;">
-      </video>
-      <script src="//players.brightcove.net/1752604059001/B1xXFuBodW_default/index.min.js"></script>
+      </video-js>
+      <script src="https://players.brightcove.net/1752604059001/B1xXFuBodW_default/index.min.js"></script>
     </div>
   </div>
 
@@ -101,7 +101,7 @@
   </div>
 
   <script type="text/javascript">
-    videojs("myPlayerID").ready(function() {
+    videojs.getPlayer('myPlayerID').ready(function() {
       // Get a reference to the player and the Play/Pause button in the article block
       var myPlayer = this,
           pauseButton = document.querySelector("#article button");
